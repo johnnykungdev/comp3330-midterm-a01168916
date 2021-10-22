@@ -1,3 +1,7 @@
+The app is about getting, posting, updating and deleting the schedule. it follows the pattern of RESTful api.
+Using nouns as the entity and the verbs are specified with HTTP request methods. Please check the following
+instruction for the APIs.
+
 api path = /schedule
 
 Get all courses
