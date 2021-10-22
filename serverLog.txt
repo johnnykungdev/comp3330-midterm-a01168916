@@ -37,3 +37,6 @@ GET /schedule/6172e6c3750a6bc73c34cf8e%0A, 10/22/2021, 9:48:51 AM, from ::1
 GET /schedule/6172e6c3750a6bc73c34cf8e%0A, 10/22/2021, 9:48:58 AM, from ::1
 GET /, 10/22/2021, 9:50:11 AM, from ::1
 GET /favicon.ico, 10/22/2021, 9:50:11 AM, from ::1
+GET /schedule/6172e6c3750a6bc73c34cf8e%0A, 10/22/2021, 9:51:19 AM, from ::1
+GET /schedule/6172e6c3750a6bc73c34cf8e%0A, 10/22/2021, 9:51:53 AM, from ::1
+GET /schedule, 10/22/2021, 9:52:30 AM, from ::1

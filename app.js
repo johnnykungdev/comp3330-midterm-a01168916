@@ -10,7 +10,7 @@ const logger = new Logger();
 const db = mongoClient.db("comp3330");
 const collection = db.collection("schedule");
 
-const { ObjectId, ObjectID } = require("mongodb");
+const { ObjectId } = require("mongodb");
 
 app.use(logger.print);
 
@@ -20,7 +20,9 @@ app.get("/", async (req, res) => {
 
 app.get("/schedule", async (req, res) => {
     try {
+        console.log(collection.find());
         const result = await collection.find().toArray();
+        
         res.status(200).send(result);
     } catch(error) {
         res.status(500).send({
@@ -33,7 +35,7 @@ app.get("/schedule/:id", async (req, res) => {
     try {
         const query = { _id: req.params.id };
         console.log(query);
-        const updatedData = await collection.findOne(query);
+        const updatedData = await collection.find();
         res.status(200).send(updatedData);
     } catch(error) {
         res.status(500).send({
