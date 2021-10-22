@@ -14,6 +14,10 @@ const { ObjectId, ObjectID } = require("mongodb");
 
 app.use(logger.print);
 
+app.get("/", async (req, res) => {
+    res.send(`go to "/schedule" to see all schedule`);
+})
+
 app.get("/schedule", async (req, res) => {
     try {
         const result = await collection.find().toArray();
@@ -27,11 +31,10 @@ app.get("/schedule", async (req, res) => {
 
 app.get("/schedule/:id", async (req, res) => {
     try {
-        console.log(req.params.id);
-        const query = { _id: ObjectId(req.params.id) };
+        const query = { _id: req.params.id };
+        console.log(query);
         const updatedData = await collection.findOne(query);
-        console.log(updatedData);
-        res.status(200).send(result);
+        res.status(200).send(updatedData);
     } catch(error) {
         res.status(500).send({
             message: `${error}`

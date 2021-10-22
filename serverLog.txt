@@ -27,3 +27,13 @@ GET /schedule, 10/22/2021, 9:42:51 AM, from ::1
 GET /schedule, 10/22/2021, 9:42:52 AM, from ::1
 DELETE /schedule/6172e1ed08cf644a0839cf56, 10/22/2021, 9:42:58 AM, from ::1
 PATCH /schedule/6172e755d561510e517de71d, 10/22/2021, 9:43:03 AM, from ::1
+GET /schedule/6172e6c3750a6bc73c34cf8e%0A, 10/22/2021, 9:48:00 AM, from ::1
+GET /schedule/6172e6c3750a6bc73c34cf8e%0A, 10/22/2021, 9:48:01 AM, from ::1
+GET /schedule/6172e6c3750a6bc73c34cf8e%0A, 10/22/2021, 9:48:02 AM, from ::1
+GET /schedule/6172e6c3750a6bc73c34cf8e%0A, 10/22/2021, 9:48:14 AM, from ::1
+GET /schedule/6172e6c3750a6bc73c34cf8e%0A, 10/22/2021, 9:48:14 AM, from ::1
+GET /schedule/6172e6c3750a6bc73c34cf8e%0A, 10/22/2021, 9:48:51 AM, from ::1
+GET /schedule/6172e6c3750a6bc73c34cf8e%0A, 10/22/2021, 9:48:51 AM, from ::1
+GET /schedule/6172e6c3750a6bc73c34cf8e%0A, 10/22/2021, 9:48:58 AM, from ::1
+GET /, 10/22/2021, 9:50:11 AM, from ::1
+GET /favicon.ico, 10/22/2021, 9:50:11 AM, from ::1
