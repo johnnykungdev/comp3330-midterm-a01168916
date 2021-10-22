@@ -15,7 +15,7 @@ const { ObjectId, ObjectID } = require("mongodb");
 app.use(logger.print);
 
 app.get("/", async (req, res) => {
-    res.send(`go to "/schedule" to see all schedule`);
+    res.send(`go to "/schedules" to see all schedule`);
 })
 
 
